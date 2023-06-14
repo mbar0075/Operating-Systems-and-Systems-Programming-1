@@ -25,7 +25,7 @@ The implementation of the shell included the following structure: <br>
 
 
 <p align='center'>
-  <img src="https://github.com/mbar0075/Operating-Systems-and-Systems-Programming-1/assets/103250564/e9c679f4-0fd5-4b8e-9141-592b1ef61e17" style="display: block; margin: 0 auto; width: 43%; height: auto;"><br>
+  <img src="https://github.com/mbar0075/Operating-Systems-and-Systems-Programming-1/assets/103250564/e9c679f4-0fd5-4b8e-9141-592b1ef61e17" style="display: block; margin: 0 auto; width: 50%; height: auto;"><br>
 </p>
 
 ### Creation of Tiny Shell:
@@ -79,7 +79,7 @@ pipeline[pipelinecounter+1]=NULL;
 int result = execute_pipeline_async( pipeline ,true,file_in,file_out,append_out,noOfPipes);
 ```
 
-Lastly, an **Advanced Scanning task** was introduced to improve the expressiveness of the command input scanner. The aim was to enhance the tokenization process by adding rules. These rules involved using quotation marks to change the interpretation of whitespace and other metacharacters within the quoted string, introducing an exception for the backslash character to remove the special meaning of certain metacharacters, and using the semicolon as a metacharacter to separate multiple command pipelines on a single line.
+Lastly, an **Advanced Scanning** task was introduced to improve the expressiveness of the command input scanner. The aim was to enhance the tokenization process by adding rules. These rules involved using quotation marks to change the interpretation of whitespace and other metacharacters within the quoted string, introducing an exception for the backslash character to remove the special meaning of certain metacharacters, and using the semicolon as a metacharacter to separate multiple command pipelines on a single line.
 
 ```c
  while((line = linenoise("tish$>")) != NULL) {

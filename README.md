@@ -96,5 +96,5 @@ Lastly, an **Advanced Scanning** task was introduced to improve the expressivene
 ```
 
 ## Deliverables:
-The repository includes The Operating System Assignment (Building a Tiny Shell/CLI)<br />
+**The repository includes The Operating System Assignment (Building a Tiny Shell/CLI)** <br />
 

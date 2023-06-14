@@ -10,7 +10,7 @@
 The purpose of this project involved the creation of a **Tiny Shell (tish$>)**, which would have the functionality of executing multiple builtin commands and pipeline commands. The shell included various error checking capabilities, the functionality of executing multiple command pipelines, and accepting text and meta characters which were enclosed in quotes.
 
 ### Conceptual Overview of Tiny Shell:
-The implementation of the shell included the following structure: <br>
+**The implementation of the shell included the following structure:** <br>
 
 1. On start-up the shell will wait for user input <br>
 2. The user inputs the input to the terminal <br>
@@ -29,7 +29,7 @@ The implementation of the shell included the following structure: <br>
 </p>
 
 ### Creation of Tiny Shell:
-**Creation of the aformentioned Tiny Shell (tish) can be partioned in the following tasks:**  <br>
+**Creation of the aformentioned Tiny Shell (tish$>) can be partioned in the following tasks:**  <br>
 
 The first task involved **Process Control**, which served as the foundation of Tiny Shell and accounted for a significant portion of the assignment evaluation. The primary focus was on building a framework to launch external programs. Thorough testing of the implementation was emphasized to save time during the debugging phase of subsequent tasks. The problems in this task included launching executables using the fork-exec pattern, enabling concurrent execution of two programs through a pipe, supporting arbitrary-sized pipelines by handling a variable number of concurrent programs, establishing a producer-consumer chain between stages using pipes, providing an option to block the parent's execution until the pipeline completes, and implementing conditional input and output redirection to files.
 
